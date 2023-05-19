@@ -199,12 +199,17 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\EasyCashIdentityProject.BusinessLayer\EasyCashIdentityProject.BusinessLayer.csproj" />
     <ProjectReference Include="..\EasyCashIdentityProject.DataAccessLayer\EasyCashIdentityProject.DataAccessLayer.csproj" />
     <ProjectReference Include="..\EasyCashIdentityProject.EntityLayer\EasyCashIdentityProject.EntityLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Register\" />
   </ItemGroup>
 
 </Project>
